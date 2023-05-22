@@ -7,7 +7,7 @@ const FeedbackOptions = ({ option, onLeaveFeedback }) => {
     <ContaiherBtn>
       {option.map(el => (
         <Button type="button" name={el} onClick={onLeaveFeedback} key={el}>
-          {(el = el.charAt(0).toUpperCase() + el.slice(1))}
+                  {(el = el.charAt(0).toUpperCase() + el.slice(1))}
         </Button>
       ))}
     </ContaiherBtn>
